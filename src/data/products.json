@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Iced Latte (កាហ្វេទឹកដោះគោទឹកកក)",
+    "priceUSD": 2.5,
+    "category": "Beverages",
+    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Angkor Beer (កំប៉ុង)",
+    "priceUSD": 1.2,
+    "category": "Beverages",
+    "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=500&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Khmer Lok Lak (ឡុកឡាក់សាច់គោ)",
+    "priceUSD": 4.5,
+    "category": "Food",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80"
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "theme": {
+    "extend": {
+      "colors": {
+        "primary": "#1b1b1f",
+        "secondary": "#6c7380",
+        "secondary-muted": "#656b76",
+        "tertiary": "#7e14ff",
+        "neutral": "#faf9f7",
+        "on-primary": "#ffffff",
+        "on-tertiary": "#ffffff",
+        "surface": "#ffffff",
+        "surface-muted": "#f2f1ee",
+        "border": "#e4e1dc",
+        "success": "#1e7a46",
+        "caution-text": "#8a6a12",
+        "caution-bg": "#f5c542",
+        "danger": "#b3261e",
+        "on-dark-muted": "#a7acb5"
+      },
+      "fontFamily": {
+        "display": [
+          "Inter"
+        ],
+        "h1": [
+          "Inter"
+        ],
+        "h2": [
+          "Inter"
+        ],
+        "body-md": [
+          "Inter"
+        ],
+        "body-sm": [
+          "Inter"
+        ],
+        "label-caps": [
+          "Inter"
+        ],
+        "numeral-mono": [
+          "JetBrains Mono"
+        ],
+        "currency-khr": [
+          "Inter"
+        ]
+      },
+      "fontSize": {
+        "display": [
+          "2.25rem",
+          {
+            "letterSpacing": "-0.02em",
+            "fontWeight": "700"
+          }
+        ],
+        "h1": [
+          "1.75rem",
+          {
+            "letterSpacing": "-0.015em",
+            "fontWeight": "700"
+          }
+        ],
+        "h2": [
+          "1.25rem",
+          {
+            "fontWeight": "600"
+          }
+        ],
+        "body-md": [
+          "1rem",
+          {}
+        ],
+        "body-sm": [
+          "0.875rem",
+          {}
+        ],
+        "label-caps": [
+          "0.75rem",
+          {
+            "letterSpacing": "0.06em",
+            "fontWeight": "600"
+          }
+        ],
+        "numeral-mono": [
+          "1rem",
+          {}
+        ],
+        "currency-khr": [
+          "0.875rem",
+          {
+            "fontWeight": "700"
+          }
+        ]
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "8px",
+        "lg": "16px",
+        "xl": "24px",
+        "full": "9999px"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px",
+        "xxl": "48px"
+      }
+    }
+  }
+}
