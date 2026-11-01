@@ -23,6 +23,15 @@ export const useCartStore = create((set) => ({
     cart: state.cart.filter((item) => item.id !== productId),
   })),
 
+  // ថែមបន្ថែរចំនួនទិញរបស់មួយទំនិញ (យឺថ� 0 មកកាន់ 0)
+  adjustQuantity: (productId, delta) => set((state) => ({
+    cart: state.cart.map((item) =>
+      item.id === productId
+        ? { ...item, quantity: Math.max(0, item.quantity + delta) }
+        : item
+    ),
+  })),
+
   // សម្អាតកន្ត្រកទាំងអស់
   clearCart: () => set({ cart: [] }),
 }));
